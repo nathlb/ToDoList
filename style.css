@@ -1,0 +1,82 @@
+*{
+    background-color: #252526;
+    color: #858580;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: "LXGW WenKai TC", cursive;
+}
+
+
+.BackgroundPage {
+    background-color: #252526;
+}
+
+.BackgroundTitle > h1{
+    background-color: #252526;
+    padding: 30px;
+}
+
+
+.BackgroundList{
+    background-color: #252526;
+    padding-top: 30px;
+    
+}
+
+.BackgroundList > ul > li{
+    background-color: #333333;
+    padding: 10px;
+    border-radius: 2px;
+    border-color: #252526;
+    margin: 5px;
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    position: relative;
+    list-style-type: none;
+}
+
+.BackgroundList > ul > li > button {
+    background-color: #FF8566;
+    color: #252526;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    font-weight: 1000;
+    font-size: 12px;
+}
+
+.BackgroundButton {
+    background-color: #333333;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding-top: 30px;
+    max-width: 450px;
+    
+}
+
+.BackgroundButton > form{
+    background-color: #333333;
+}
+
+.BackgroundButton > form > input {
+    height: 40px;
+    width: 300px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #FF8566;
+}
+
+.BackgroundButton > form > button {
+    height: 30px;
+    width: 150px;
+    margin: 20px;
+}
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="BackgroundPage">
+        <div class="BackgroundTitle">
+            <h1>Remind me</h1>
+        </div>
+        <div class="BackgroundList" id="ListOfObject">
+            <ul id="ulListOfObject">
+                <li>i need to go to the doctor <button onclick="removeItem(this)">X</button></li>
+                <li>guitare class at 6 <button onclick="removeItem(this)">X</button></li>
+                <li>final exam next monday at 8am <button onclick="removeItem(this)">X</button></li>
+            </ul>
+        </div>
+        <div class="BackgroundButton">
+            <form>
+                <input type="text" placeholder="don't be shy, write" id="textToAdd">
+                <button type="button" onclick="AddObjectToList()">add</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
